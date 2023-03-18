@@ -3,7 +3,7 @@ import React from 'react';
 const KidsDailyActivity = () => {
     return (
       <div className="py-12">
-        <h1 className="text-5xl font-bold mb-12 mt-4 text-center">
+        <h1 className="lg:text-5xl font-bold mb-12 mt-4 text-center">
           Kids_%Daily_%Activity
         </h1>
         <div className="carousel carousel-center w-full p-4 space-x-4 rounded-box">

@@ -13,7 +13,7 @@ const AboutUs = () => {
             />
           </div>
           <div className="">
-            <h1 className="text-5xl font-bold mb-4 ">
+            <h1 className="lg:text-5xl font-bold mb-4 ">
               Towards a Smart & Passionate Generation
             </h1>
 

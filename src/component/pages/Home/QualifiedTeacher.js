@@ -4,7 +4,7 @@ const QualifiedTeacher = () => {
     return (
       <div className="px-6 py-6">
         <p className='font-bold text-center mt-6 text-[red]'>OUR TEACHERS</p>
-        <h1 className="text-5xl font-bold mb-12 mt-4 text-center">
+        <h1 className="lg:text-5xl font-bold mb-12 mt-4 text-center">
           Our_Qualified_(Teacher
         </h1>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6   justify-center items-center">

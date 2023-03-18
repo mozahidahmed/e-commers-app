@@ -4,7 +4,7 @@ const ThreeCard = () => {
     return (
       <div className="bg-[#FFC73B]">
         <div className="grid justify-center p-12">
-          <h1 className="text-5xl font-bold mb-12 mt-4 text-center">
+          <h1 className="lg:text-5xl font-bold mb-12 mt-4 text-center">
             Find%_Nearby_%Places
           </h1>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6   justify-center items-center">

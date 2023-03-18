@@ -5,7 +5,7 @@ const Banner = () => {
       <div className=" bg-gray-200 px-6 py-6">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12   justify-center items-center">
           <div>
-            <h1 className="text-5xl font-bold mb-4 ">
+            <h1 className="lg:text-5xl font-bold mb-4 ">
               Welcome to Find_Teacher.com
             </h1>
 
