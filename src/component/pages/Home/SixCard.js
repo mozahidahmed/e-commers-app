@@ -3,7 +3,7 @@ import React from 'react';
 const SixCard = () => {
     return (
       <div className="mt-6">
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6   justify-center items-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  py-6 justify-center items-center">
           <div className="flex bg-base-100 rounded-lg p-6">
             <div className="p-4">
               <img

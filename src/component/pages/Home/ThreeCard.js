@@ -7,7 +7,7 @@ const ThreeCard = () => {
           <h1 className="lg:text-5xl font-bold mb-12 mt-4 text-center">
             Find%_Nearby_%Places
           </h1>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6   justify-center items-center">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  justify-center items-center">
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure className="p-6 ">
                 <img

@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
       <div className=" bg-gray-200 px-6 p-5">
         <p className="font-bold text-center mt-6 text-[red]">About Us</p>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12   justify-center items-center ">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 py-12  justify-center items-center ">
           <div className="flex justify-center ">
             <img
               src="https://templatekit.mattsapii.co/padora/wp-content/uploads/sites/5/2020/12/about-image.png"

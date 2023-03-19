@@ -9,21 +9,18 @@ const Navbar = () => {
  
   const menuitems = (
     <>
+
       <li className="text-black font-bold text-1xl">
         <Link to="/home">Home</Link>
       </li>
       <li className="text-black font-bold text-1xl">
         <Link to="/blog">Blog</Link>
       </li>
-
-      <li className="text-black font-bold text-1xl">
-        <Link to="/devoloverprofile">Protifolio</Link>
-      </li>
       <li className="text-black font-bold text-1xl">
         <Link to="/gallery">Gallery</Link>
       </li>
       <li className="text-black font-bold text-1xl">
-        <Link to="/gallery">About</Link>
+        <Link to="/login">Login</Link>
       </li>
     </>
   );
