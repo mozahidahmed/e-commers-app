@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchTeacher from '../Teacher/SearchTeacher';
 import AboutUs from './AboutUs';
 import Banner from './Banner';
 import KidsDailyActivity from './KidsDailyActivity';
@@ -10,6 +11,7 @@ const Home = () => {
     return (
       <div>
        <Banner/>
+       <SearchTeacher/>
        <ThreeCard/>
        <KidsDailyActivity/>
        <Reviews></Reviews>
