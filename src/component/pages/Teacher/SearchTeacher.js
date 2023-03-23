@@ -8,27 +8,24 @@ const SearchTeacher = () => {
 
   useEffect(() => {
     const data = [
-      { zilla: "MozahidD", division:"Dhaka"},
-      { zilla: "MozahidD", division:"Dhaka"},
-      { zilla: "sahporan", division:"Sylhet"},
-      { zilla: "kadimpara", division:"Sylhet"},
-      { zilla: "kadimpara", division:"Sylhet"},
-      { zilla: "MozahidB", division:"Barisal"},
-      { zilla: "MozahidK", division:"Khulna"},
-      { zilla: "MozahidK", division:"Khulna"},
-
-    
+      { zilla: "MozahidD", division: "Dhaka" },
+      { zilla: "MozahidD", division: "Dhaka" },
+      { zilla: "sahporan", division: "Sylhet" },
+      { zilla: "kadimpara", division: "Sylhet" },
+      { zilla: "kadimpara", division: "Sylhet" },
+      { zilla: "MozahidB", division: "Barisal" },
+      { zilla: "MozahidK", division: "Khulna" },
+      { zilla: "MozahidK", division: "Khulna" },
     ];
     setUserData(data);
-    setSearch(data)
+    setSearch(data);
   }, []);
 
   const handleSearch = () => {
- const newData = userData
-   
-   .filter((y) => y.zilla === (zilla === "" ? y.zilla : zilla))
-   .filter((y) => y.division === (division === "" ? y.division : division));
- setSearch(newData)
+    const newData = userData
+      .filter((y) => y.zilla === (zilla === "" ? y.zilla : zilla))
+      .filter((y) => y.division === (division === "" ? y.division : division));
+    setSearch(newData);
   };
 
   return (
@@ -109,9 +106,9 @@ const SearchTeacher = () => {
       </div>
 
       <div className="grid py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  px-6 justify-center items-center">
-        {search.map((data) => (
+        {search.slice(0, 6).map((data) => (
           <>
-            <div className="card card-compact w-96 bg-base-100 shadow-xl  p-6">
+            <div className="card glass card-compact w-96 bg-base-100 shadow-xl  p-6">
               <div className="avatar grid justify-center ">
                 <div className="w-32 rounded-full  ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img
@@ -121,9 +118,12 @@ const SearchTeacher = () => {
                 </div>
               </div>
               <div className="text-center py-6 px-6">
-                <h1 className="text-2xl font-bold">{data.name}</h1>
-                <h1 className="text-2xl">{data.subject} </h1>
+                <h1 className="text-2xl font-bold">Mozahid</h1>
+                <h1 className="text-2xl">English </h1>
                 <p>most experties teaher in sylhet</p>
+                <div className="hover:bg-primary rounded-full p-2 mt-2">
+                  <h1 className="text-primary font-bold hover:text-white">See More</h1>
+                </div>
               </div>
             </div>
           </>
