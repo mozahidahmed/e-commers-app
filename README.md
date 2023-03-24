@@ -1,5 +1,5 @@
 <ol>
-<h1>Main Functionality</h1>
+<h4>Main Functionality</h4>
 <li>Search Bar</li>
 <li>Dashboard</li>
 </ol>
