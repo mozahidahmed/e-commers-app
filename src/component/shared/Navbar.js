@@ -31,7 +31,7 @@ const Navbar = () => {
       </li>
       {user ? (
         <li className="text-black font-bold text-1xl">
-          <Link className="text-black font-bold text-1xl" to="/dashboard">
+          <Link className="text-black font-bold text-1xl" to="dashboard">
             dashboard
           </Link>
           <Link onClick={logout}>Logout</Link>
