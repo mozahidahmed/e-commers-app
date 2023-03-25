@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const SearchTeacher = () => {
 
-  const [data, setData] = useState([]);
+
   const [userData, setUserData] = useState([]);
   const [search, setSearch] = useState([]);
   const [division, setDivision] = useState("");
@@ -12,8 +12,7 @@ const SearchTeacher = () => {
 
       fetch("Data.json")
       .then((res) => res.json())
-      .then((data) => 
-      setUserData(data))
+      .then((data) => {setUserData(data); setSearch(data)})
      
 
        
@@ -133,7 +132,7 @@ const SearchTeacher = () => {
           ))
         ) : (
           <div className="grid justify-center">
-            <h1 className="text-4xl">% search_cerfull</h1>
+            <h1 className="text-4xl">%_Not_Found_Yours_Search</h1>
           </div>
         )}
       </div>
