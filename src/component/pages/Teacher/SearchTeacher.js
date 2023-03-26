@@ -28,18 +28,19 @@ const SearchTeacher = () => {
   };
 
   return (
-    <div className="py-6">
+    <div className="py-12">
       <div className="grid justify-center ">
         <div className="grid sm:grid-cols-4  md:grid-cols-2 lg:grid-cols-5 gap-6   justify-center items-center">
           <div className="">
             <div className="form-control w-full max-w-xs">
-              <label className="label">
-                <span className="label-text font-bold">Division</span>
-              </label>
+          
               <select
                 className="select select-bordered"
                 onChange={(e) => setDivision(e.target.value)}
               >
+                <option disabled selected>
+                  Division
+                </option>
                 <option value="Dhaka">Dhaka</option>
                 <option value="Sylhet">Sylhet</option>
                 <option value="Barisal">Barisal</option>
@@ -49,10 +50,11 @@ const SearchTeacher = () => {
           </div>
           <div className="">
             <div className="form-control w-full max-w-xs">
-              <label className="label">
-                <span className="label-text font-bold">City</span>
-              </label>
+           
               <select className="select select-bordered">
+                <option disabled selected>
+                  City
+                </option>
                 <option>Star Wars</option>
                 <option>Harry Potter</option>
                 <option>Lord of the Rings</option>
@@ -63,13 +65,14 @@ const SearchTeacher = () => {
           </div>
           <div className="">
             <div className="form-control w-full max-w-xs">
-              <label className="label">
-                <span className="label-text font-bold">Zilla</span>
-              </label>
+           
               <select
                 className="select select-bordered"
                 onChange={(e) => setZilla(e.target.value)}
               >
+                <option disabled selected>
+                  Zilla
+                </option>
                 <option value="MozahidD">MozahidD</option>
                 <option value="MozahidS">MozahidS</option>
                 <option value="MozahidB">MozahidB</option>
@@ -80,10 +83,10 @@ const SearchTeacher = () => {
           </div>
           <div className="">
             <div className="form-control w-full max-w-xs">
-              <label className="label">
-                <span className="label-text font-bold">upozella</span>
-              </label>
               <select className="select select-bordered">
+                <option disabled selected>
+                  upozella
+                </option>
                 <option>Star Wars</option>
                 <option>Harry Potter</option>
                 <option>Lord of the Rings</option>
@@ -93,7 +96,7 @@ const SearchTeacher = () => {
             </div>
           </div>
 
-          <div className="mt-9">
+          <div className="">
             <button
               onClick={() => handleSearch()}
               className="btn btn-outline btn-primary"
