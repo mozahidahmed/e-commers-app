@@ -33,7 +33,6 @@ const SearchTeacher = () => {
         <div className="grid sm:grid-cols-4  md:grid-cols-2 lg:grid-cols-5 gap-6   justify-center items-center">
           <div className="">
             <div className="form-control w-full max-w-xs">
-          
               <select
                 className="select select-bordered"
                 onChange={(e) => setDivision(e.target.value)}
@@ -45,12 +44,14 @@ const SearchTeacher = () => {
                 <option value="Sylhet">Sylhet</option>
                 <option value="Barisal">Barisal</option>
                 <option value="Khulna">Khulna</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Mymensingh">Mymensingh</option>
               </select>
             </div>
           </div>
           <div className="">
             <div className="form-control w-full max-w-xs">
-           
               <select className="select select-bordered">
                 <option disabled selected>
                   City
@@ -65,7 +66,6 @@ const SearchTeacher = () => {
           </div>
           <div className="">
             <div className="form-control w-full max-w-xs">
-           
               <select
                 className="select select-bordered"
                 onChange={(e) => setZilla(e.target.value)}
@@ -73,11 +73,14 @@ const SearchTeacher = () => {
                 <option disabled selected>
                   Zilla
                 </option>
-                <option value="MozahidD">MozahidD</option>
-                <option value="MozahidS">MozahidS</option>
-                <option value="MozahidB">MozahidB</option>
-                <option value="MozahidK">MozahidK</option>
-                <option value="kadimpara">kadimpara</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
               </select>
             </div>
           </div>

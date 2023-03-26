@@ -1,12 +1,11 @@
 [
-      { "zilla": "MozahidD", "division": "Dhaka" },
-      { "zilla": "MozahidD", "division": "Dhaka" },
-      { "zilla": "sahporan", "division": "Sylhet" },
-      { "zilla": "kadimpara", "division": "Sylhet" },
-      { "zilla": "kadimpara", "division": "Sylhet" },
-      { "zilla": "kadimpara", "division": "Sylhet" },
-      { "zilla": "kadimpara", "division": "Sylhet" },
-      { "zilla": "MozahidB", "division": "Barisal" },
-      { "zilla": "MozahidK", "division": "Khulna" },
-      { "zilla": "MozahidK", "division": "Khulna" }
+      { "zilla": "A", "division": "Dhaka" },
+      { "zilla": "V", "division": "Rangpur" },
+      { "zilla": "C", "division": "Sylhet" },
+      { "zilla": "D", "division": "Khulna" },
+      { "zilla": "E", "division": "Chittagong" },
+      { "zilla": "F", "division": "Rajshahi" },
+      { "zilla": "G", "division": "Mymensingh" },
+      { "zilla": "H", "division": "Barisal" }
+  
 ]
